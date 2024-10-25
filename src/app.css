@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background: linear-gradient(45deg, #FF61D8, #6B5DFF);
+  color: white;
+}
+
+.ns-dark {
+  background-color: #1a1a2e;
+  color: #f3f4f6;
+}
+
+.ns-dark .card {
+  background-color: #272741;
+  color: #f3f4f6;
+}
+
+.ns-dark .input {
+  background-color: #31314f;
+  color: #f3f4f6;
+  border-color: #6b7280;
+}
+
+.gradient-bg {
+  background: linear-gradient(45deg, #FF61D8, #6B5DFF);
+}
+
+.card {
+  background-color: white;
+  border-radius: 24;
+  padding: 20;
+  margin: 12;
+  elevation: 8;
+}
+
+.input {
+  border-width: 2;
+  border-color: #e5e7eb;
+  border-radius: 16;
+  padding: 16;
+  margin-bottom: 16;
+  background-color: #ffffff;
+  font-size: 16;
+}
+
+.btn {
+  border-radius: 20;
+  padding: 16;
+  elevation: 4;
+  font-size: 18;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #FF61D8, #6B5DFF);
+  color: white;
+}
+
+.btn-danger {
+  background: linear-gradient(45deg, #FF5757, #FF8C8C);
+  color: white;
+}
+
+.container {
+  padding: 16;
+}
+
+.mood-rating {
+  font-size: 32;
+  margin: 8;
+  padding: 12;
+  border-radius: 16;
+  width: 60;
+  height: 60;
+  text-align: center;
+}
+
+.mood-1 { background-color: #FF5757; color: white; }
+.mood-2 { background-color: #FF8C8C; color: white; }
+.mood-3 { background-color: #FFA57E; color: white; }
+.mood-4 { background-color: #FFB661; color: white; }
+.mood-5 { background-color: #FFD93D; color: black; }
+.mood-6 { background-color: #D4FF61; color: black; }
+.mood-7 { background-color: #9FFF8C; color: black; }
+.mood-8 { background-color: #61FFB6; color: black; }
+.mood-9 { background-color: #61D8FF; color: black; }
+.mood-10 { background-color: #6B5DFF; color: white; }
+
+.text-gradient {
+  background: linear-gradient(45deg, #FF61D8, #6B5DFF);
+  -webkit-background-clip: text;
+  color: transparent;
+}
